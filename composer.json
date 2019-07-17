@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "coresolutions\\package-test\\PackageTestProvider"
+                "Coresolutions\\PackageTest\\PackageTestProvider"
             ]
         }
     },
