@@ -1,0 +1,22 @@
+{
+    "name": "coresolutions/package-test",
+    "authors": [
+        {
+            "name": "Drew Cossey",
+            "email": "dcossey@coresolutions.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "coresolutions\\package-test\\PackageTestProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CoreSolutions\\PackageTest\\": "src/"
+        }
+    }
+}
